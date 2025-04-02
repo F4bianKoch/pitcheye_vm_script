@@ -17,6 +17,7 @@ apt-get install -y \
     vim \
     htop \
     build-essential \
+    libgl1 \
     software-properties-common
 
 # Install Python 3.13
