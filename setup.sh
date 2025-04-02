@@ -24,7 +24,7 @@ apt-get install -y python3.13 python3.13-venv python3.13-dev
 
 # Install Poetry
 curl -sSL https://install.python-poetry.org | python3 -
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="/root/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 
 # Clone your repositories if needed
