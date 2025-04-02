@@ -24,8 +24,6 @@ apt-get install -y python3.13 python3.13-venv python3.13-dev
 
 # Install Poetry
 curl -sSL https://install.python-poetry.org | python3 -
-echo \'export PATH="/root/.local/bin:$PATH"\' >> ~/.bashrc
-source ~/.bashrc
 
 # Clone your repositories if needed
 git clone https://$GITHUB_USER:$GITHUB_TOKEN@github.com/f4biankoch/pitcheye.git ~
